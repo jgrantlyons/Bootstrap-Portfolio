@@ -31,6 +31,7 @@
 
 #navbarNav{
     float: right;
+    background: white;
 }
 .nav-item{
 text-align:right;
@@ -47,6 +48,8 @@ body{
 .middle{
     background:white;
     width:100%;
+    padding:0px auto;
+    margin:0px auto;
 }
 .middleContent{
     padding:10px;
@@ -57,6 +60,8 @@ body{
   
 }
 #meat{border:1px solid grey;
+    margin:0px auto;
+    padding:0px 0px;
 }
 .bottom{    
     border-top: 2px solid #4aaaa5;
@@ -68,7 +73,7 @@ body{
     height:  20px;
 }
 .profile-picture{
-    position:fixed;
+    position:absolute;
     float:left;
     /* unsure why my picture covers text, i played with the z index but couldn't figure it out. */
 }
