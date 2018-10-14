@@ -31,7 +31,7 @@
 
 #navbarNav{
     float: right;
-    background: white;
+    
 }
 .nav-item{
 text-align:right;
@@ -76,4 +76,25 @@ body{
     position:absolute;
     float:left;
     /* unsure why my picture covers text, i played with the z index but couldn't figure it out. */
+}
+.project{
+    margin: 0px 60px 25px 0px;
+    position: relative;
+    align: left;
+}
+.projPic{
+    width: 250px ;
+    height: 250px ;
+    object-fit: cover;
+}
+.picTag{
+    background-color: #4aaaa5;
+    color: white;
+    font-size:25px;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    line-height: 42px;
 }
