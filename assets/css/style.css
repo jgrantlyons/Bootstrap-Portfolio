@@ -1,0 +1,74 @@
+.h1{
+    background: white;
+    height: 80px;
+    padding: 0px;
+    margin: 0px auto;
+    width: 100%;
+}
+#nameTag{
+    background: #4aaaa5;
+    color: white;
+    /* position: fixed; */
+    padding: 10px;
+    line-height: 60px;
+}
+.h1:after{
+    content: ' ';
+    display: block ;
+    border-top: 1px solid grey;
+}
+.navbar{
+    background: white;
+    height: 80px;
+    padding: .5rem 0rem;
+    margin: 0px auto ;
+    width:100%;
+   
+}
+#navvy{
+    height:80px;
+}
+
+#navbarNav{
+    float: right;
+}
+.nav-item{
+text-align:right;
+font-size: 12pt;
+}
+.top{
+    width: 100%;
+    height: fixed;
+}
+body{
+    background: url('../images/qbkls.png');
+    
+}
+.middle{
+    background:white;
+    width:100%;
+}
+.middleContent{
+    padding:10px;
+    background:white;
+    overflow:hidden;
+    display:inline-block;
+    width:100%;
+  
+}
+#meat{border:1px solid grey;
+}
+.bottom{    
+    border-top: 2px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    height:  20px;
+}
+.profile-picture{
+    position:fixed;
+    float:left;
+    /* unsure why my picture covers text, i played with the z index but couldn't figure it out. */
+}
